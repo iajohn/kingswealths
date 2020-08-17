@@ -1,0 +1,1 @@
+<footer class="footer dark-bg-1"></footer>
