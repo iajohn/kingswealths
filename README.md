@@ -34,7 +34,10 @@ Then run in your command line. If you don't have composer already installed in y
 $ composer install
 ```
 
-## Setup GOOGLE_RECAPTCHA 2 with this tutorial on their repo `https://github.com/anhskohbo/no-captcha ` or ` https://www.itsolutionstuff.com/post/laravel-5-google-recaptcha-code-and-validation-example-using-anhskohbo-no-captcha-packageexample.html`
+## Setup GOOGLE_RECAPTCHA 2 with this tutorial on their repo 
+(https://github.com/anhskohbo/no-captcha)
+` or ` 
+(https://www.itsolutionstuff.com/post/laravel-5-google-recaptcha-code-and-validation-example-using-anhskohbo-no-captcha-packageexample.html)
 
 ## Usage
 
