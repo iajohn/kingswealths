@@ -24,14 +24,14 @@ Copy .env.example to .env
 $ cp .env.example .env
 ```
 
-Generate a new key for the project
-```
-$ php artisan key:generate
-```
-
 Then run in your command line. If you don't have composer already installed in your system, do download and installed  [Composer](https://getcomposer.org/).
 ```
 $ composer install
+```
+
+Generate a new key for the project
+```
+$ php artisan key:generate
 ```
 
 ## Setup GOOGLE_RECAPTCHA 2 with this tutorial on their repo 
