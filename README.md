@@ -19,14 +19,14 @@ CD into the directory
 $ cd kingswealths
 ```
 
-Generate a new key for the project
-```
-$ php artisan key:generate
-```
-
 Copy .env.example to .env
 ```
 $ cp .env .env.example
+```
+
+Generate a new key for the project
+```
+$ php artisan key:generate
 ```
 
 Then run in your command line. If you don't have composer already installed in your system, do download and installed  [Composer](https://getcomposer.org/).
