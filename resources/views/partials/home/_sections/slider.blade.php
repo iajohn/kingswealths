@@ -6,13 +6,20 @@
             <div class="bg-overlay"></div>
             <div class="home-slider-content flex-min-height-inner dark-bg-1">
                 <div class="container top-bottom-padding-120 text-right">
-                    <!-- <h2 class="slider-overlay2 medium-title red-color">{{ config('app.name', 'Laravel') }}</h2> -->
                     <h3 class="large-title-bold text-color-5">
                         <span class="slider-overlay2 slider-tr-delay01">{{ trans('website/home/general.page_head.slider-entertainment.span_0') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay02">{{ trans('website/home/general.page_head.slider-entertainment.span_1') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay03">{{ trans('website/home/general.page_head.slider-entertainment.span_2') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay04 red-color">{{ trans('website/home/general.page_head.slider-entertainment.span_3') }}</span>
                     </h3>
+
+                    <div class="slider-fade slider-tr-delay04 top-margin-30">
+                        <div class="border-btn-box pointer-large">
+                            <div class="border-btn-inner">
+                                <a href="{{ route('contact') }}" class="border-btn" data-text="Check Here!">Check Here!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,13 +38,13 @@
                         <span class="slider-overlay2 slider-tr-delay04">{{ trans('website/home/general.page_head.slider-vibe.span_3') }}</span>
                     </h3>
 
-                    <!-- <div class="slider-fade slider-tr-delay04 top-margin-30">
+                    <div class="slider-fade slider-tr-delay04 top-margin-30">
                         <div class="border-btn-box pointer-large">
                             <div class="border-btn-inner">
-                                <a href="{{ route('contact') }}" class="border-btn" data-text="Contact Now!">Contact Now!</a>
+                                <a href="{{ route('contact') }}" class="border-btn" data-text="Vibe With Us!">Vibe With Us!</a>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,13 +55,20 @@
             <div class="bg-overlay"></div>
             <div class="home-slider-content flex-min-height-inner dark-bg-1">
                 <div class="container top-bottom-padding-120 text-right">
-                    <!-- <h2 class="slider-overlay2 medium-title red-color">{{ config('app.name', 'Laravel') }}</h2> -->
                     <h3 class="large-title-bold text-color-5">
                         <span class="slider-overlay2 slider-tr-delay01">{{ trans('website/home/general.page_head.slider-pleasure.span_0') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay02">{{ trans('website/home/general.page_head.slider-pleasure.span_1') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay03 red-color">{{ trans('website/home/general.page_head.slider-pleasure.span_2') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay04">{{ trans('website/home/general.page_head.slider-pleasure.span_3') }}</span>
                     </h3>
+
+                    <div class="slider-fade slider-tr-delay04 top-margin-30">
+                        <div class="border-btn-box pointer-large">
+                            <div class="border-btn-inner">
+                                <a href="{{ route('contact') }}" class="border-btn" data-text="Start Here!">Start Here!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,6 +108,14 @@
                         <span class="slider-overlay2 slider-tr-delay03 red-color">{{ trans('website/home/general.page_head.slider-ecommerce.span_2') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay04">{{ trans('website/home/general.page_head.slider-ecommerce.span_3') }}</span>
                     </h3>
+
+                    <div class="slider-fade slider-tr-delay04 top-margin-30">
+                        <div class="border-btn-box pointer-large">
+                            <div class="border-btn-inner">
+                                <a href="{{ route('contact') }}" class="border-btn" data-text="Contact Now!">Contact Now!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,6 +133,14 @@
                         <span class="slider-overlay2 slider-tr-delay03">{{ trans('website/home/general.page_head.slider-music.span_2') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay04 red-color">{{ trans('website/home/general.page_head.slider-music.span_3') }}</span>
                     </h3>
+
+                    <div class="slider-fade slider-tr-delay04 top-margin-30">
+                        <div class="border-btn-box pointer-large">
+                            <div class="border-btn-inner">
+                                <a href="{{ route('contact') }}" class="border-btn" data-text="Contact Now!">Contact Now!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,10 +156,11 @@
                         <span class="slider-overlay2 slider-tr-delay01">{{ trans('website/home/general.page_head.slider-event.span_1') }}</span><br>
                         <span class="slider-overlay2 slider-tr-delay02">{{ trans('website/home/general.page_head.slider-event.span_2') }}</span>
                     </h3>
+
                     <div class="slider-fade slider-tr-delay04 top-margin-30">
                         <div class="border-btn-box pointer-large">
                             <div class="border-btn-inner">
-                                <a href="{{ route('contact') }}" class="border-btn" data-text="Contact Now!">Contact Now!</a>
+                                <a href="{{ route('contact') }}" class="border-btn" data-text="Book Now!">Book Now!</a>
                             </div>
                         </div>
                     </div>

@@ -23,7 +23,9 @@ return [
     'title'     => 'Contact Us',
     'gmail'     => 'collector@Kingswealths.com',
     'webmail'   => 'info@Kingswealths.com',
-    'phone'     => '+233 553384255',
+    'phone'     => '+233553384255',
     'address_1' => 'Olebu, Abulekuma Vicolis',
     'address_2' => 'Accra Ghana',
+    'address_3' => 'Ogaga Oghene Street',
+    'address_4' => 'Lagos Nigeria',
 ];

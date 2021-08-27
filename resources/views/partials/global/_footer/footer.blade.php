@@ -36,14 +36,28 @@
             <div class="content-left-right-margin-10 footer-center-mobile">
                 <ul class="footer-information text-color-4">
                     <li>
-                        <i class="far fa-envelope"></i><a href="{{ route('contact') }}" class="xsmall-title-oswald pointer-small">{{ trans('website/contact/general.gmail') }}</a>
+                        <i class="far fa-envelope"></i><a href="mailto:{{ trans('website/contact/general.gmail') }}" class="xsmall-title-oswald pointer-small">{{ trans('website/contact/general.gmail') }}</a>
                     </li>
 
                     <li>
-                        <i class="fas fa-mobile-alt"></i><a href="" class="xsmall-title-oswald">{{ trans('website/contact/general.phone') }}</a>
+                        <i class="fas fa-mobile-alt"></i>
+                        <a href="tel:{{ trans('website/contact/general.phone') }}" class="small-title-oswald">
+                            {{ trans('website/contact/general.phone') }}
+                        </a>
                     </li>
                     <li>
-                        <i class="fas fa-map-marker-alt"></i><a href="" class="xsmall-title-oswald text-height-17">{{ trans('website/contact/general.address_1') }}<br><span>{{ trans('website/contact/general.address_2') }}</span></a>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="" class="small-title-oswald text-height-17">
+                            {{ trans('website/contact/general.address_1') }}<br>
+                            <span>{{ trans('website/contact/general.address_2') }}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="" class="small-title-oswald text-height-17">
+                            {{ trans('website/contact/general.address_3') }}<br>
+                            <span>{{ trans('website/contact/general.address_4') }}</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +109,7 @@
         </div><!-- column end -->
         <!-- column start -->
         <div class="twelve-columns">
-            <p class="p-letter-style text-color-4 footer-copyright">&copy; Copyright KINGSWEALTH. Designed by <a href="#" >MAINBLACK</a></p>
+            <p class="p-letter-style text-color-4 footer-copyright">&copy; Copyright KINGSWEALTH. Designed by <a style="color: #51a2b8;" href="https://www.dudgital.com" >DUDGITAL</a></p>
         </div><!-- column end -->
     </div><!-- flex-container end -->
 </footer>

@@ -23,7 +23,7 @@
             <div class="columns-12-md">
                 <div class="columns-4-md">
                     <div data-animation-container class="content-right-margin-20">
-                        <h2 data-animation-child class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">{{ trans('website/services/general.services_list.one.title') }}</h2>
+                        <h2 data-animation-child class="medium-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">{{ trans('website/services/general.services_list.one.title') }}</h2>
                         <ul class="list-dots">
                             <li>
                                 <p data-animation-child class="p-letter-style text-color-4 fade-anim-box tr-delay04" data-animation="fade-anim">{{ trans('website/services/general.services_list.one.li_0') }}</p>
@@ -77,7 +77,7 @@
             <div class="columns-12-md">
                 <div class="columns-4-md">
                     <div data-animation-container class="content-right-margin-20">
-                        <h2 data-animation-child class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">{{ trans('website/services/general.services_list.two.title') }}</h2>
+                        <h2 data-animation-child class="medium-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">{{ trans('website/services/general.services_list.two.title') }}</h2>
                         <ul class="list-dots">
                             <li>
                                 <p data-animation-child class="p-letter-style text-color-4 fade-anim-box tr-delay04" data-animation="fade-anim">{{ trans('website/services/general.services_list.two.li_0') }}</p>

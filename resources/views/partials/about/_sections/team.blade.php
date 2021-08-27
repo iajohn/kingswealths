@@ -5,13 +5,13 @@
         <!-- Meet The CEO start -->
         <div class="columns-12-md bottom-padding-60">
             <!-- ceo bio start -->
-            <div class="columns-7-md visible-sm visible-xs bottom-padding-60">
+            <!-- <div class="columns-7-md visible-sm visible-xs bottom-padding-60">
                 <div data-animation-container class="content-right-margin-20 team-title-box">
                     <h2 data-animation-child class="small-title-oswald overlay-anim-box2 red-color" data-animation="overlay-anim2">{{ trans('website/about/general.ceo_bio_title') }}</h2>
 
                     <p data-animation-child class="overlay-anim-box2 p-style-small text-color-5 tr-delay01" data-animation="overlay-anim2">{{ trans('website/about/general.ceo_bio') }}</p>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Image start -->
             <div class="columns-5-md bottom-padding-60">
@@ -20,7 +20,10 @@
                         <img class="hover-img" src="assets/images/about/nelson.JPG" style="width: auto;" alt="{{ trans('website/about/general.ceo_fullname') }}">
                     </div>
                     <div class="team-content">
-                        <h4 data-animation-child class="small-title-oswald text-color-4 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">{{ trans('website/about/general.ceo_fullname') }}</h4><br>
+                        <h4 data-animation-child class="medium-title-oswald text-color-4 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">{{ trans('website/about/general.ceo_fullname') }}</h4>
+                        <br>
+                        <span data-animation-child class="medium-title-oswald text-color-4 hover-content fade-anim-box tr-delay01 overlay-anim-box2 red-color" data-animation="overlay-anim2"> ({{ trans('website/about/general.ceo_other_name') }})</span>
+                        <br>
                         <p data-animation-child class="p-letter-style text-color-4 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">{{ trans('website/about/general.ceo_hons') }}</p>
                     </div>
                 </a>
@@ -29,7 +32,7 @@
             <!-- ceo bio start -->
             <div class="columns-7-md hidden-sm hidden-xs bottom-padding-60">
                 <div data-animation-container class="content-right-margin-20 team-title-box">
-                    <h2 data-animation-child class="small-title-oswald overlay-anim-box2 red-color" data-animation="overlay-anim2">{{ trans('website/about/general.ceo_bio_title') }}</h2>
+                    <h2 data-animation-child class="big-title-oswald overlay-anim-box2 red-color" data-animation="overlay-anim2">{{ trans('website/about/general.ceo_bio_title') }}</h2>
 
                     <p data-animation-child class="overlay-anim-box2 p-style-small text-color-5 tr-delay01" data-animation="overlay-anim2">{{ trans('website/about/general.ceo_bio') }}</p>
                 </div>
