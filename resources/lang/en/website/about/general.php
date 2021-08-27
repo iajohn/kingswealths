@@ -68,8 +68,9 @@ return [
     ],
 
     // Team Section
-    'ceo_bio'       => "Nelson is the CEO of Kingswealth, he is a musician and entertainer who have the passion to make people happy.",
-    'ceo_bio_title' => 'Meet The CEO',
-    'ceo_fullname'  => 'Nelson Kingswealth',
-    'ceo_hons'      => '',
+    'ceo_bio'         => "Nwanegbo oguchi Joshua is the CEO of Kingswealth, he is a musician and entertainer who have the passion to make people happy.",
+    'ceo_bio_title'   => 'Meet The CEO',
+    'ceo_fullname'    => 'Nwanegbo Oguchi Joshua',
+    'ceo_other_name'  => 'Nelson kingswealth',
+    'ceo_hons'        => '',
 ];
